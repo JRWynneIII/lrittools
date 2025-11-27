@@ -7,7 +7,7 @@ require (
 	github.com/alecthomas/kong v1.12.1
 	github.com/charmbracelet/log v0.4.2
 	github.com/gdamore/tcell/v2 v2.9.0
-	github.com/jrwynneiii/ccsds_tools v0.0.0-20251025164932-3a9f9c003831
+	github.com/jrwynneiii/ccsds_tools v0.0.0-20251127174629-25e48dd2a95e
 	github.com/rivo/tview v0.42.0
 )
 
