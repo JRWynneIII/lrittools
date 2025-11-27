@@ -51,7 +51,7 @@ func Load(path string) *Ziq {
 		}
 		return &z
 	} else {
-		log.Errorf("Could not load ziq file %s", path, err)
+		log.Errorf("Could not load ziq file %s", path, err.Error())
 		return nil
 	}
 }

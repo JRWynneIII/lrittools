@@ -30,6 +30,7 @@ require (
 	github.com/mitchellh/copystructure v1.2.0 // indirect
 	github.com/mitchellh/reflectwalk v1.0.2 // indirect
 	github.com/muesli/termenv v0.16.0 // indirect
+	github.com/opensatelliteproject/goaec v0.0.0-20190224065807-d814e01b69fa // indirect
 	github.com/opensatelliteproject/libsathelper v0.0.0-20201213205030-0c5ee163b540 // indirect
 	github.com/racerxdl/segdsp v0.0.0-20190825170906-a855d00a24a8 // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect

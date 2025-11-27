@@ -75,6 +75,8 @@ github.com/mitchellh/reflectwalk v1.0.2/go.mod h1:mSTlrgnPZtwu0c4WaC2kGObEpuNDbx
 github.com/muesli/termenv v0.16.0 h1:S5AlUN9dENB57rsbnkPyfdGuWIlkmzJjbFf0Tf5FWUc=
 github.com/muesli/termenv v0.16.0/go.mod h1:ZRfOIKPFDYQoDFF4Olj7/QJbW60Ol/kL1pU3VfY/Cnk=
 github.com/myriadrf/limedrv v0.0.0-20190225221912-8583a26e3fce/go.mod h1:/SXVBJBHAVLlvLU1B1n0a0QPcZBtqF1VpH5POPZzuBw=
+github.com/opensatelliteproject/goaec v0.0.0-20190224065807-d814e01b69fa h1:xeLJ69MtY3i01MRSMzViI+fVuw0lG2+uGyfTYpfx3po=
+github.com/opensatelliteproject/goaec v0.0.0-20190224065807-d814e01b69fa/go.mod h1:Vk9uHIaSWtdlOiG37iO+/IMM1fSHzqHeYP03MqnFDuY=
 github.com/opensatelliteproject/libsathelper v0.0.0-20201213205030-0c5ee163b540 h1:HL6QIbqD0gdZ3Bn0QNblWRA5y6pihV9z93U7TkB4jzE=
 github.com/opensatelliteproject/libsathelper v0.0.0-20201213205030-0c5ee163b540/go.mod h1:h0D0UqWuRUQEmmSHioZiLmMn4/Iu/fiGFV/4axzdLs0=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
