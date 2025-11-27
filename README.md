@@ -20,7 +20,7 @@ Flags:
 ```
 
 
-To install: `go install github.com/jrwynneiii/lrittools/cmd/lritcat`
+To install: `go install github.com/jrwynneiii/lrittools/cmd/lritcat@latest`
 
 ## `lritviewer`
 A simple TUI LRIT file browser tool. When dealing with a large number of LRIT files, this can be useful for comparison. Use `<TAB>` to navigate between panes, and the arrow keys, or vim movements to navigate within a pane
@@ -35,7 +35,7 @@ Flags:
   -h, --help    Show context-sensitive help.
 ```
 
-To install: `go install github.com/jrwynneiii/lrittools/cmd/lritviewer`
+To install: `go install github.com/jrwynneiii/lrittools/cmd/lritviewer@latest`
 
 ## `ziq2lrit`
 [SatDump](https://github.com/SatDump/SatDump) can output a baseband IQ recording in a custom, zstd compressed file type that it calls `ziq`. Since this is custom to SatDump, there aren't many tools for processing this kind of data. `ziq2lrit` will read in a ziq baseband file and demodulate a GOES HRIT/LRIT signal, and output the resulting LRIT files. By default, it will open a TUI so that you can more easily observe the processing, but this can be disabled. (NOTE: at time of writing, only cs8 ziq data is supported!)
@@ -51,7 +51,7 @@ Flags:
       --sample-rate=FLOAT-64    Sample rate of input ZIQ file
 ```
 
-To install: `go install github.com/jrwynneiii/lrittools/cmd/ziq2lrit`
+To install: `go install github.com/jrwynneiii/lrittools/cmd/ziq2lrit@latest`
 
 ## `unziq`
 `unziq` will process and decompress SatDump's `ziq` baseband files and dump the IQ stream into another file, so that other tools can more easily process it (NOTE: at time of writing, only cs8 ziq data is supported, and output IQ stream will be of type CF32!).
@@ -68,4 +68,4 @@ Flags:
       --normalize    Writes normalized complex64 values to output
 ```
 
-To install: `go install github.com/jrwynneiii/lrittools/cmd/unziq`
+To install: `go install github.com/jrwynneiii/lrittools/cmd/unziq@latest`
